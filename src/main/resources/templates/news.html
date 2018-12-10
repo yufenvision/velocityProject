@@ -8,8 +8,11 @@
     * 这里还是注解
     * *#
   
-    username: $!{username}
+    username: ${username}
   
   </pre>
+#foreach($item in ${list})
+<p>$item</p>
+#end
 </body>
 </html>
